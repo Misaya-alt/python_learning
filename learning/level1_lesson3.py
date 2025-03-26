@@ -43,4 +43,16 @@ else:
     print("您的身高未超过120cm，可免费游玩")
 print("祝您玩的愉快！")
 
+# if...:,elif...:,else:
+print("欢迎来到上海")
+height = int(input("请输入您的身高(cm)"))
+vip_level = int(input("请输入您的vip等级，只需输入数字"))
+if height < 120:
+    print("您的身高未超过120cm，可免费游玩")
+elif vip_level >= 3:
+    print(f"您是尊贵的vip{vip_level}用户，可免费游玩")
+else:
+    print("您的身高超过120cm，需购票10元")
+print("祝您玩的愉快！")
+
 
