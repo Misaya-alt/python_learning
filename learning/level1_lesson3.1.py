@@ -43,16 +43,37 @@ else:
     print("您的身高未超过120cm，可免费游玩")
 print("祝您玩的愉快！")
 
-# if...:,elif...:,else:
+# if...:,elif...:,else:，都是同级,else可省略
 print("欢迎来到上海")
 height = int(input("请输入您的身高(cm)"))
 vip_level = int(input("请输入您的vip等级，只需输入数字"))
+day = int(input("请告诉我今天几号"))
 if height < 120:
     print("您的身高未超过120cm，可免费游玩")
 elif vip_level >= 3:
     print(f"您是尊贵的vip{vip_level}用户，可免费游玩")
+elif day == 1:
+    print("今天是1号，可免费游玩")
+else:
+    print("您的身高超过120cm，需购票10元")
+print("祝您玩的愉快！")
+# 简化如下
+if int(input("请输入您的身高(cm)")) < 120:
+    print("您的身高未超过120cm，可免费游玩")
+elif int(input("请输入您的vip等级，只需输入数字")) >= 3:
+    print(f"您是尊贵的vip{vip_level}用户，可免费游玩")
+elif int(input("请告诉我今天几号")) == 1:
+    print("今天是1号，可免费游玩")
 else:
     print("您的身高超过120cm，需购票10元")
 print("祝您玩的愉快！")
 
-
+num = 100
+if int(input("请输入您猜的数字")) == num :
+    print("不对")
+elif int(input("再猜一次")) == num :
+    print("不对")
+elif int(input("再猜一次"))== num :
+    print("不对")
+else:
+    print("三次全错，没机会了")
