@@ -5,5 +5,5 @@
     <option name="pathToExecutable" value="/opt/anaconda3/bin/black" />
     <option name="sdkName" value="Python 3.13 (python-learning)" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (python-learning)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (PyCharmLearningProject)" project-jdk-type="Python SDK" />
 </project>

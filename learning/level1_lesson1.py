@@ -5,6 +5,7 @@ print(666)
 print(14.14)
 
 
+
 # 定于一个变量，记录钱包余额
 money = 50
 # 通过print输出money，逗号表示可以一起输出后面的内容
@@ -53,3 +54,14 @@ num4 = 5  # 或者其他合适的初始值
 num4 += 3
 print(num4)
 
+#print("", end="") 输出内容不换行且没有间隔
+print("hello",end="")
+print("world")
+
+# \t 用来多行字符串对齐
+print("hello\tworld")
+print("sayhello\tworld")
+print("nohello\tworld")
+
+# print() 表示换行
+print()
