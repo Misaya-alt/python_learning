@@ -16,3 +16,4 @@ for i in name:
     else:
         count = count
 print(f"里面一个有{count}个a")
+print()
